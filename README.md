@@ -1,3 +1,4 @@
+![Digital Maturity Platform Dashboard](dashboard_screenshot.png)
 # Digital Maturity Assessment Platform
 
 ## Overview
