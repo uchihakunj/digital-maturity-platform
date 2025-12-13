@@ -59,5 +59,3 @@ This repository contains the source code for the Streamlit-based web application
 *   **Vineet**
 *   **Tejendra Kanwar**
 *   **Vikas Rajput**
-
-# digital-maturity-platform-
