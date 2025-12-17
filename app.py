@@ -65,7 +65,7 @@ if os.path.exists("logo.svg"):
     st.sidebar.image("logo.svg", width=180)
 
 st.sidebar.title("Navigation")
-dark_mode = st.sidebar.toggle("Dark Mode", value=True) 
+dark_mode = st.sidebar.toggle("Dark Mode", value=False) 
 
 # Navigation Widget
 page = st.sidebar.radio(
