@@ -2,43 +2,58 @@
 
 ## Application Screenshots
 
-<table>
+<table align="center">
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">Home & Landing</h3>
-      <img src="dashboard.jpg" width="100%" alt="Home Page">
+      <img src="images/dashboard.png" width="100%" alt="Home Page">
     </td>
     <td width="50%" valign="top">
+      <h3 align="center">Core Capabilities</h3>
+      <img src="images/core capability.png" width="100%" alt="Core Capabilities">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3 align="center">Maturity Dashboard</h3>
-      <img src="heatmap.png" width="100%" alt="Dashboard Heatmap">
+      <img src="images/maturity dashboard.png" width="100%" alt="Dashboard Overview">
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">Dimension Heatmap</h3>
+      <img src="images/heatmap.png" width="100%" alt="Heatmap">
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">Assessment Interface</h3>
-      <img src="Assesments.png" width="100%" alt="Assessment Page">
+      <img src="images/Assesments.png" width="100%" alt="Assessment Page">
     </td>
     <td width="50%" valign="top">
       <h3 align="center">Bulk Data Upload</h3>
-      <img src="upload data.png" width="100%" alt="Upload Data">
+      <img src="images/upload data.png" width="100%" alt="Upload Data">
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">Comparative Radar</h3>
-      <img src="radar.png" width="100%" alt="Maturity Radar">
+      <img src="images/radar.png" width="100%" alt="Maturity Radar">
     </td>
     <td width="50%" valign="top">
+      <h3 align="center">Rankings & Stats</h3>
+      <img src="images/bar graphs and rankings.png" width="100%" alt="Rankings">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3 align="center">Strategic Roadmap</h3>
-      <img src="roadmap.png" width="100%" alt="Roadmap">
+      <img src="images/roadmap.png" width="100%" alt="Roadmap">
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">Contact Support</h3>
+      <img src="images/contacts.png" width="100%" alt="Contact Page">
     </td>
   </tr>
 </table>
-
-<div align="center">
-  <h3>Contact & Support</h3>
-  <img src="contacts.png" width="60%" alt="Contact Page">
-</div>
 
 ## Streamlit Dashboard Cloud: https://digital-maturity-platform.streamlit.app/
 
