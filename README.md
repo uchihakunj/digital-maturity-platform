@@ -1,9 +1,46 @@
 # Digital Maturity Assessment Platform
 
-<figure>
-  <img src="dashboard_screenshot.png" alt="Digital Maturity Platform Dashboard" width="800">
-  <figcaption>Figure 1: The Digital Maturity Platform Dashboard showing the home screen in dark mode.</figcaption>
-</figure>
+## Application Screenshots
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">Home & Landing</h3>
+      <img src="dashboard.jpg" width="100%" alt="Home Page">
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">Maturity Dashboard</h3>
+      <img src="heatmap.png" width="100%" alt="Dashboard Heatmap">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">Assessment Interface</h3>
+      <img src="Assesments.png" width="100%" alt="Assessment Page">
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">Bulk Data Upload</h3>
+      <img src="upload data.png" width="100%" alt="Upload Data">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">Comparative Radar</h3>
+      <img src="radar.png" width="100%" alt="Maturity Radar">
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">Strategic Roadmap</h3>
+      <img src="roadmap.png" width="100%" alt="Roadmap">
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <h3>Contact & Support</h3>
+  <img src="contacts.png" width="60%" alt="Contact Page">
+</div>
+
+## Streamlit Dashboard Cloud: https://digital-maturity-platform.streamlit.app/
 
 ## Overview
 The **Digital Maturity Assessment Platform** is an enterprise analytics tool designed to help organizations benchmark their digital readiness. It provides a centralized interface to evaluate departments across five critical dimensions: **Technology, Culture, Process, Skills, and Risk**.
@@ -11,15 +48,14 @@ The **Digital Maturity Assessment Platform** is an enterprise analytics tool des
 This repository contains the source code for the Streamlit-based web application, which offers real-time visualization, bulk data processing, and automated strategic roadmap generation.
 
 ## Features
-*   **Interactive Assessment:** Intuitive form-based scoring for individual departments.
-*   **Bulk Ingestion:** Upload CSV files to process enterprise-wide data instantly.
-*   **Dynamic Dashboard:**
-    *   **Heatmaps:** Visualize maturity scores across the entire organization.
-    *   **Radar Charts:** Compare specific departments side-by-side.
-*   **Strategic Roadmap:** Auto-generated recommendations based on maturity gaps with downloadable PDF reports.
-*   **Weighted Scoring Model:** Implements a strategic algorithm that prioritizes Technology (30%) and Process (25%) over softer metrics, ensuring the score reflects true operational readiness.
-*   **Dark Mode:** Professional UI with toggleable themes.
-*   **
+* **Interactive Assessment:** Intuitive form-based scoring for individual departments.
+* **Bulk Ingestion:** Upload CSV files to process enterprise-wide data instantly.
+* **Dynamic Dashboard:**
+    * **Heatmaps:** Visualize maturity scores across the entire organization.
+    * **Radar Charts:** Compare specific departments side-by-side.
+* **Strategic Roadmap:** Auto-generated recommendations based on maturity gaps with downloadable PDF reports.
+* **Weighted Scoring Model:** Implements a strategic algorithm that prioritizes Technology (30%) and Process (25%) over softer metrics, ensuring the score reflects true operational readiness.
+* **Dark Mode:** Professional UI with toggleable themes.
 
 ## Installation
 
@@ -33,7 +69,7 @@ This repository contains the source code for the Streamlit-based web application
     Ensure you have Python 3.8+ installed.
     ```bash
     pip install -r requirements.txt
-# Or manually: pip install streamlit pandas plotly fpdf kaleido
+    # Or manually: pip install streamlit pandas plotly fpdf kaleido
     ```
 
 ## Usage
@@ -44,25 +80,23 @@ This repository contains the source code for the Streamlit-based web application
     ```
 
 2.  **Navigate the App:**
-    *   **Home:** Overview of capabilities.
-    *   **Assessment:** Submit a new maturity score for a department.
-    *   **Upload Data:** Import existing data via CSV.
-    *   **Dashboard:** View analytics and charts.
-    *   **Roadmap:** Get specific improvement advice.
+    * **Home:** Overview of capabilities.
+    * **Assessment:** Submit a new maturity score for a department.
+    * **Upload Data:** Import existing data via CSV.
+    * **Dashboard:** View analytics and charts.
+    * **Roadmap:** Get specific improvement advice.
 
 ## Project Structure
 
-*   `app.py`: Main application entry point handling UI and routing.
-*   `logic.py`: Core business logic for maturity index calculation and recommendation rules.
-*   `database.py`: SQLite database handler for storage and retrieval.
-*   `requirements.txt`: Python dependencies.
+* `app.py`: Main application entry point handling UI and routing.
+* `logic.py`: Core business logic for maturity index calculation and recommendation rules.
+* `database.py`: SQLite database handler for storage and retrieval.
+* `requirements.txt`: Python dependencies.
 
 ## Contributors (**Team-9**)
 
-*   **Sunil Kerketta**
-*   **Raghwendra Kunjam**
-*   **Vineet**
-*   **Tejendra Kanwar**
-*   **Vikas Rajput**
-
-# digital-maturity-platform-
+* **Sunil Kerketta**
+* **Raghwendra Kunjam**
+* **Vineet**
+* **Tejendra Kanwar**
+* **Vikas Rajput**
