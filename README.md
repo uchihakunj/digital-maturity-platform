@@ -1,6 +1,6 @@
 # Digital Maturity Assessment Platform
 
-## Streamlit Dashboard Cloud: https://digital-maturity-platform.streamlit.app/
+
 
 ## Application Screenshots
 
@@ -57,6 +57,7 @@
   </tr>
 </table>
 
+## Streamlit Dashboard Cloud: https://digital-maturity-platform.streamlit.app/
 
 ## Overview
 The **Digital Maturity Assessment Platform** is an enterprise analytics tool designed to help organizations benchmark their digital readiness. It provides a centralized interface to evaluate departments across five critical dimensions: **Technology, Culture, Process, Skills, and Risk**.
