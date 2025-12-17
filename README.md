@@ -1,5 +1,10 @@
 # Digital Maturity Assessment Platform
 
+<figure>
+  <img src="dashboard_screenshot.png" alt="Digital Maturity Platform Dashboard" width="800">
+  <figcaption>Figure 1: The Digital Maturity Platform Dashboard showing the home screen in dark mode.</figcaption>
+</figure>
+
 ## Overview
 The **Digital Maturity Assessment Platform** is an enterprise analytics tool designed to help organizations benchmark their digital readiness. It provides a centralized interface to evaluate departments across five critical dimensions: **Technology, Culture, Process, Skills, and Risk**.
 
