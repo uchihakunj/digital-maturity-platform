@@ -110,10 +110,4 @@ This repository contains the source code for the Streamlit-based web application
 * `database.py`: SQLite database handler for storage and retrieval.
 * `requirements.txt`: Python dependencies.
 
-## Contributors (**Team-9**)
 
-* **Sunil Kerketta**
-* **Raghwendra Kunjam**
-* **Vineet**
-* **Tejendra Kanwar**
-* **Vikas Rajput**
